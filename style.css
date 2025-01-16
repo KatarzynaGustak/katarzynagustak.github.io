@@ -5,8 +5,8 @@
   left: 0;
   width: 200px;
   height: calc(100% - 120px); /* Wysokość poniżej header */
-  background-color: #fff;
-  color: #000;
+  background-color: #555;
+  color: white;
   padding-top: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
