@@ -1,8 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const sidebar = document.getElementById("sidebar");
-  const toggleMenu = document.getElementById("toggle-menu");
+  const toggleButton = document.getElementById("toggle-sidebar");
 
-  toggleMenu.addEventListener("click", () => {
-    sidebar.classList.toggle("open");
+  toggleButton.addEventListener("click", () => {
+    sidebar.classList.toggle("hidden");
+    toggleButton.textContent = sidebar.classList.contains("hidden")
+      ? "Pokaż menu"
+      : "Ukryj menu";
   });
 });
