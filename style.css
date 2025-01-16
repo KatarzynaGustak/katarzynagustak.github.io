@@ -34,6 +34,11 @@
 .sidebar ul li a:hover {
   background-color: #444;
 }
+/* Stylizacja dla reszty strony */
+main {
+  margin-left: 220px; /* Przesunięcie treści, aby nie nachodziła na menu */
+  padding: 20px;
+}
 /* Ogólne style */
 body {
   font-family: Arial, sans-serif;
